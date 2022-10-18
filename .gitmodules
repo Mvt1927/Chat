@@ -1,0 +1,6 @@
+[submodule "ChatWeb_Client"]
+	path = ChatWeb_Client
+	url = https://github.com/Mvt1927/ChatApp-FrontEnd.git
+[submodule "ChatWeb_Server"]
+	path = ChatWeb_Server
+	url = https://github.com/khacvux/chatapp-server.git
