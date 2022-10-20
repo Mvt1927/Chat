@@ -10,20 +10,21 @@
     "client": "npm run dev --workspace=chatweb_client",
     "client:build": "npm run build --workspace=chatweb_client",
     "client:preview": "npm run preview --workspace=chatweb_client",
+    "client:build:preview": "npm run client:build && npm run client:preview",
 
-    "server:dev": "wait-on tcp:3333 && npm run start:dev --workspace=chat_server",
+    "server:dev": "npm run start:dev --workspace=chat_server",
     "server": "npm run start --workspace=chat_server",
 
 
-    "start:dev": "npm run server:dev && npm run client",
-    "start": "npm run server && npm run client",
-    "start:build": "npm:server && npm:client:build",
-    "test": "concurrently \"npm run server\" \"npm run client\""
+    "start:dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start:build:preview": "concurrently \"npm run server\" \"npm run client:build:preview\"",
+    "start:preview": "concurrently \"npm run server\" \"npm run client:preview\""
 
   },
   "repository": {
     "type": "git",
-    "url": "git+url"
+    "url": "git+https://github.com/Mvt1927/Chat.git"
   },
   "keywords": [
     "chat",
@@ -35,9 +36,6 @@
   "author": "Mtv1927,khacvux",
   "license": "UNLICENSED",
   "private": true,
-  "bugs": {
-    "url": "url"
-  },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.2.0",
