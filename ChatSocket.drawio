@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T14:42:17.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.1" etag="7vHfAdUdaCADfRbLsszj" type="github"><diagram id="gOJOzRetbQcgXtkEl5cl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-26T14:50:16.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="gjg6bNGm8pOMeTLZPkPp" version="20.3.1" type="github">
+  <diagram id="gOJOzRetbQcgXtkEl5cl" name="Trang-1">
+    <mxGraphModel dx="994" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0TAu2RY84iv-qnMOKPin-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-1" target="0TAu2RY84iv-qnMOKPin-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-1" target="0TAu2RY84iv-qnMOKPin-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-1" target="0TAu2RY84iv-qnMOKPin-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-1" target="0TAu2RY84iv-qnMOKPin-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-1" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-2" value="Chat client" style="swimlane;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="270" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-3" value="Login" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-2">
+          <mxGeometry x="75" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-5" value="Register" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-2">
+          <mxGeometry x="75" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-7" value="Send message" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-2">
+          <mxGeometry x="75" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-10" value="Receive message" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-2">
+          <mxGeometry x="75" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-9" value="Chat server" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="240" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-14" value="check user&lt;br&gt;return token" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-9">
+          <mxGeometry x="60" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-16" value="create user&lt;br&gt;return token" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-9">
+          <mxGeometry x="60" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0TAu2RY84iv-qnMOKPin-9" source="0TAu2RY84iv-qnMOKPin-19" target="0TAu2RY84iv-qnMOKPin-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-19" value="Receive message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-9">
+          <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-21" value="Send message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="0TAu2RY84iv-qnMOKPin-9">
+          <mxGeometry x="60" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-3" target="0TAu2RY84iv-qnMOKPin-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-5" target="0TAu2RY84iv-qnMOKPin-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-14" target="0TAu2RY84iv-qnMOKPin-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-7" target="0TAu2RY84iv-qnMOKPin-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TAu2RY84iv-qnMOKPin-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0TAu2RY84iv-qnMOKPin-21" target="0TAu2RY84iv-qnMOKPin-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
