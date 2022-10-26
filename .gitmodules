@@ -4,3 +4,6 @@
 [submodule "Chat_Server"]
 	path = Chat_Server
 	url = https://github.com/khacvux/chatapp-server.git
+# [submodule "FA5PRO"]
+# 	path = public/FA5PRO
+# 	url = https://github.com/tallesairan/FA5PRO.git
